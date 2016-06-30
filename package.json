@@ -1,6 +1,6 @@
 {
   "name": "webpack-version-hash-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate a file with the date and build hash",
   "main": "webpack-version-hash-plugin.js",
   "scripts": {
@@ -12,14 +12,6 @@
     "publish-please": "publish-please",
     "prepublish": "publish-please guard"
   },
-  "keywords": [
-    "webpack",
-    "version",
-    "hash"
-  ],
-  "author": "adoppler",
-  "license": "MIT",
-  "homepage": "https://github.com/adoppler/webpack-version-hash-plugin#readme",
   "devDependencies": {
     "ava": "^0.15.2",
     "babel-eslint": "^6.1.0",
@@ -29,5 +21,17 @@
     "eslint-plugin-import": "^1.9.2",
     "nyc": "^6.6.1",
     "publish-please": "^2.1.4"
-  }
+  },
+  "author": "adoppler",
+  "license": "MIT",
+  "homepage": "https://github.com/adoppler/webpack-version-hash-plugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adoppler/webpack-version-hash-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "version",
+    "hash"
+  ]
 }

@@ -1,6 +1,6 @@
 # WebpackVersionHashPlugin
 
-Adds a json file to your webpack build with the build hash and time.
+Adds a json file to your webpack build with the webpack hash and time.
 
 This can be used to help single page apps detect a new version.
 
